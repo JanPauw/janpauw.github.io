@@ -12,3 +12,17 @@
   width: 100% !important;
 }
 
+@media screen and (max-width: 991px) {
+  #skills img, #tools img {
+    margin: 2px !important;
+    padding: 10px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #skills img, #tools img {
+    margin: 1px !important;
+    padding: 5px !important;
+  }
+}
+
